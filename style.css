@@ -1,0 +1,124 @@
+body{
+    background-color: #0D0714;
+}
+#main_btn{
+    background-color: #1D1825;
+    height: 550px;
+    width: 405px;
+    margin-left:450px;
+    border-radius: 16px;
+    margin-top: 80px;
+}
+#search_btn{
+    display: flex;
+    gap: 10px;
+}
+#first_btn{
+    height: 26px;
+    width: 240px;
+    color: #777777;
+    font-size: 14px;
+    border: 1px solid #9E78CF;
+    background-color: #1D1825;
+    border-radius: 7px;
+    margin: 50px 0px 0px 50px;
+    padding-left: 10px;
+    
+
+}
+
+#box{
+    height: 30px;
+    width: 30px;
+    background-color: #9E78CF;
+    border-radius: 3px;
+    margin: 50px 0px 0px 0px;
+}
+#plus{
+    margin-left: 5px;
+    margin-top: 4px;
+    color: azure;
+    font-size: 20px;
+}
+#p1{
+    margin: 50px 0 0 50px;
+    font-size: 13px;
+    color: rgb(213, 216, 218);
+}
+.to_do{
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    width: 300px;
+    background-color: #0D0714;
+    border-radius: 5px;
+    border: 1px solid #0D0714;
+    color: #9E78CF;
+    padding-left: 20px;
+    padding-top: 20px;
+    outline: #9E78CF;
+    margin: 10px 0 0 50px;
+}
+#below_1{
+    margin: 10px 0 0 50px;
+}
+#below_2{
+    margin: 20px 0 0 50px;
+}
+#compl_input{
+    margin: 10px 0 0 50px;
+    text-decoration: line-through;
+
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    width: 300px;
+    background-color: #0D0714;
+    border-radius: 5px;
+    border: 1px solid #0D0714;
+    color: rgb(110, 157, 110);
+    padding-left: 20px;
+    outline: #9E78CF;
+    
+}
+#compl_input::placeholder{
+    color: rgb(97, 160, 97);
+}
+#p2{
+    margin: 50px 0 0 50px;
+    font-size: 13px;
+    color: rgb(217, 219, 221);
+}
+.to_do::placeholder{
+    color: #9E78CF;
+
+}
+.to_do:focus {
+    border: 2px solid #9E78CF; /* Purple border */
+}
+.closest_ans{
+    position: relative;
+    width: 300px;
+}
+
+
+
+.task-icons i {
+    color: #9E78CF;
+    cursor: pointer;
+}
+.task-icons{
+    position: absolute;
+    left: 300px;
+    display: flex;
+    gap: 10px;
+    top: 20px;
+
+
+
+
+}
+
+
+
+
